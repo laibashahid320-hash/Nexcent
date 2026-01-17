@@ -1,0 +1,22 @@
+/* variables */
+:root {
+  --primarycolor: #263238;
+  --secondarcolor: #4caf4f;
+}
+
+/* navbar */
+.logocolor {
+  color: var(--primarycolor);
+}
+
+.ulcolor {
+  color: #4d4d4d !important;
+}
+
+.buttongreen {
+  background-color: var(--secondarcolor);
+}
+
+.buttongreen:hover {
+  color: var(--secondarcolor) !important;
+}
