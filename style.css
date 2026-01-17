@@ -1,16 +1,29 @@
+/* font */
+@font-face {
+  font-family: inter;
+  src: url(./fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
 /* variables */
 :root {
   --primarycolor: #263238;
   --secondarcolor: #4caf4f;
+  --tertiarycolor: #4d4d4d;
+  --forthcolor: #f5f7fa;
+  --fifthcolor: #717171;
 }
 
 /* navbar */
+body {
+  font-family: inter;
+}
+
 .logocolor {
   color: var(--primarycolor);
 }
 
 .ulcolor {
-  color: #4d4d4d !important;
+  color: var(--tertiarycolor);
 }
 
 .buttongreen {
@@ -19,4 +32,32 @@
 
 .buttongreen:hover {
   color: var(--secondarcolor) !important;
+}
+
+/* hero section */
+.backcolor {
+  background-color: var(--forthcolor);
+}
+
+.heading {
+  color: var(--secondarcolor);
+}
+
+/* cards */
+.justify {
+  text-align: justify;
+}
+
+/* features 2 */
+.tcolor {
+  color: #18191f;
+}
+
+.five {
+  color: var(--fifthcolor);
+}
+
+/* footer */
+.footerback {
+  background-color: var(--primarycolor);
 }
